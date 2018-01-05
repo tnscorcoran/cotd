@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-
-$selector = 'cities';
+$_SESSION['SELECTOR']='cities';
+$selector = $_SESSION['SELECTOR'];
 $dbhost = $_SESSION['DBHOST'];
 $dbport = $_SESSION['DBPORT'];
 $dbuser = $_SESSION['DBUSER'];
