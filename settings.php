@@ -2,7 +2,7 @@
 
 session_start();
 
-$selector = $_SESSION['SELECTOR'];
+$selector = 'cities';
 $dbhost = $_SESSION['DBHOST'];
 $dbport = $_SESSION['DBPORT'];
 $dbuser = $_SESSION['DBUSER'];
