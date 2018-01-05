@@ -33,7 +33,7 @@ if ( empty($dbhost) ) {
 }
 $_SESSION['SELECTOR']='cities';
 
-$selector = getenv('SELECTOR');
+$selector = 'cities';
 // if theme not set by client then determine active theme default to pets
 if ( empty($_SESSION['SELECTOR']) ) { 
 
