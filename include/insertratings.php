@@ -20,6 +20,8 @@ try {
 	;");
 
     $sessionid = session_id();
+    $_SESSION['SELECTOR']='cities';
+
     $theme = $_SESSION['SELECTOR'];
     $name = $_SESSION['name'];
     $rating = $_SESSION['rating'];
