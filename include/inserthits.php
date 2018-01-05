@@ -21,6 +21,8 @@ try {
     ");
 
     $sessionid = session_id();
+    $_SESSION['SELECTOR']='cities';
+
     $theme = $_SESSION['SELECTOR'];
     $name = $_SESSION['name'];
     $clientip = $_SERVER['HTTP_CLIENT_IP']?$_SERVER['HTTP_CLIENT_IP']:($_SERVER['HTTP_X_FORWARDE‌​D_FOR']?$_SERVER['HTTP_X_FORWARDED_FOR']:$_SERVER['REMOTE_ADDR']);
