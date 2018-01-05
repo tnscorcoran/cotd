@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-$_SESSION['SELECTOR'] = $_GET['selector'];
+$_SESSION['SELECTOR'] = 'cities';
 $_SESSION['DBHOST'] = $_GET['dbhost'];
 $_SESSION['DBPORT'] = $_GET['dbport'];
 $_SESSION['DBUSER'] = $_GET['dbuser'];
